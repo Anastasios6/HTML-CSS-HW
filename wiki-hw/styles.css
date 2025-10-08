@@ -1,0 +1,69 @@
+body {
+    display:block;
+    height: 100%;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  
+    /* background-color: #f2f2f2; */
+  
+}
+.html-logo {
+    float: right;
+    margin-left: 40px;
+    /* width: 200px;
+    height: 200px; */
+}
+.p-links p {
+   font-size: 20px;
+   text-align: center;
+   width: 50%;
+}
+.p-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 15px
+  
+}
+
+img {
+    
+    width: 150px
+}
+h1 {
+    text-align: center;
+}
+.linkovi-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 10px 15px;
+}
+h2 {
+    text-align:center;
+
+
+}
+h3 {
+    text-align:center;
+}
+.history {
+    text-align: center;
+
+    
+}
+.history p {
+    text-align: justify;
+    margin: 50px 200px;
+    font-size: 20px;
+
+
+}
