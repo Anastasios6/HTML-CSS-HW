@@ -2,7 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #fdf5aa;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
   height: 1500px;
 }
@@ -57,16 +57,13 @@ button:hover {
 h4 {
   margin: 0px;
 }
-.container-apple{
+.container-apple {
   display: flex;
   justify-content: center;
   height: 550px;
-  gap:30px;
- 
+  gap: 30px;
 }
 .container2 {
-
-
   border: 1px solid black;
   width: 300px;
   height: 580px;
@@ -97,6 +94,6 @@ h4 {
   transition: all 1s;
   background-color: greenyellow;
 }
-.container2-info{
+.container2-info {
   margin: 0px;
 }
