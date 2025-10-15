@@ -1,22 +1,29 @@
 body {
-  background-color: #FDF5AA;
+  display: flex;
+  flex-direction: column;
+  background-color: #fdf5aa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  height: 1500px;
+}
+h1 {
+  text-align: center;
 }
 .container {
   display: flex;
- justify-content: center;
+  justify-content: center;
 }
 .card {
   color: rgba(255, 255, 255, 0.514);
   border: 1px solid black;
   border-radius: 25px;
   width: 400px;
-  height: 500px;
+  height: 550px;
   text-align: center;
   padding: 0;
   margin: 25px;
-  background-color: #113F67;
- box-shadow: 5px 5px 5px 5px #113F67
-  
+  background-color: #113f67;
+  box-shadow: 5px 5px 5px 5px #113f67;
 }
 .card img {
   width: 400px;
@@ -24,27 +31,72 @@ body {
   border-radius: 25px;
 }
 .card button {
-  background-color: #34699A;
+  background-color: #34699a;
   color: white;
   width: 360px;
   height: 63px;
   border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+  border-bottom-right-radius: 25px;
   margin-top: 10px;
   /* border-radius: 25px; */
 }
-button:hover {
-  background-color: #58A0C8;
-  color: white;
+.card:hover {
+  transform: scale(1.2);
   transition: all 1s;
-
+}
+button:hover {
+  background-color: #58a0c8;
+  color: white;
 }
 .rating img {
-    margin-top: 0px;
-    width: 10px;
-    height: 10px;
-    padding: 0;
+  margin-top: 0px;
+  width: 10px;
+  height: 10px;
+  padding: 0;
 }
 h4 {
-    margin: 0px;
+  margin: 0px;
+}
+.container-apple{
+  display: flex;
+  justify-content: center;
+  height: 550px;
+  gap:30px;
+ 
+}
+.container2 {
+
+
+  border: 1px solid black;
+  width: 300px;
+  height: 580px;
+  border-radius: 25px;
+  background-color: white;
+  text-align: center;
+}
+
+.container2 img {
+  width: 200px;
+  margin-left: 150px;
+  border-radius: 25px;
+}
+.container2 button {
+  width: 300px;
+  height: 55px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.container2 h2 {
+  color: red;
+}
+.container2 button:hover {
+  background-color: darkolivegreen;
+}
+.container2:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+  background-color: greenyellow;
+}
+.container2-info{
+  margin: 0px;
 }
