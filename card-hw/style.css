@@ -1,0 +1,50 @@
+body {
+  background-color: #FDF5AA;
+}
+.container {
+  display: flex;
+ justify-content: center;
+}
+.card {
+  color: rgba(255, 255, 255, 0.514);
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  padding: 0;
+  margin: 25px;
+  background-color: #113F67;
+ box-shadow: 5px 5px 5px 5px #113F67
+  
+}
+.card img {
+  width: 400px;
+  height: 200px;
+  border-radius: 25px;
+}
+.card button {
+  background-color: #34699A;
+  color: white;
+  width: 360px;
+  height: 63px;
+  border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  margin-top: 10px;
+  /* border-radius: 25px; */
+}
+button:hover {
+  background-color: #58A0C8;
+  color: white;
+  transition: all 1s;
+
+}
+.rating img {
+    margin-top: 0px;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+}
+h4 {
+    margin: 0px;
+}
