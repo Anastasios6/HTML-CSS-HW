@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Create Account</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -22,23 +22,23 @@
       </div>
     </header>
     <h1 style="text-align: center">Create an account</h1>
-    <div class="form">
+    <div class="form-create">
       <form action="Create-acc" method="get">
-        <input
+        <input class="input-create"
           type="text"
           placeholder="Username"
           id="Username"
           name="Username"
         />
 
-        <input
+        <input class="input-create"
           type="password"
           id="Password"
           name="Password"
           placeholder="Password"
         />
-        <input type="email" id="email" name="email" placeholder="E-mail" />
-        <button type="submit">Create Account</button>
+        <input class="input-create" type="email" id="email" name="email" placeholder="E-mail" />
+        <button class="input-create" type="submit">Create Account</button>
       </form>
     </div>
   </body>

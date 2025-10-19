@@ -4,13 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WIikipedia</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <a href="index.html">
-        <img src="/img/wikipedia.jpg" alt="wikipedia-logo"
-      /></a>
+      <a href="index.html"> <img src="/img/wiki.jpg" alt="wikipedia-logo" /></a>
       <div class="search-box">
         <input type="text" name="search" placeholder="Search Wikipedia" />
         <button class="search">Search</button>
@@ -22,17 +20,31 @@
       </div>
     </header>
 
-    <h1>HTML-Login</h1>
-    <div class="login-form">
-      <div class="input">
-        <input type="text" placeholder="Username" />
-        <input type="password" placeholder="Password" />
-        <button>Login</button>
-      </div>
+    <h1>Log-in to your account</h1>
+    <div class="login">
+      <div class="login-form">
+        <form action="login-acc" method="get">
+          <div class="inputs">
+            <input
+              type="text"
+              placeholder="Username"
+              id="User-name"
+              name="User-name"
+            />
+            <input
+              type="password"
+              placeholder="Password"
+              id="Password"
+              name="Password"
+            />
+            <button>Login</button>
 
-      <div class="forgot-create-acc">
-        <a href="forgot-pw.html">Forgot password?</a>
-        <a href="Create-acc.html">Create an account</a>
+            <div class="forgot-create-acc">
+              <a href="forgot-pw.html">Forgot Password</a>
+              <a href="Create-acc.html"> Create an account</a>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </body>
