@@ -262,6 +262,7 @@ h4 {
   transform: scale(1.1);
   background: darkorange;
   cursor: pointer;
+  transition:1s;
 }
 
 .login-form button {
@@ -282,9 +283,11 @@ h4 {
 .inputs input:hover {
   background-color: darkorange;
   transform: scale(1.1);
+  transition: 1s;
 }
 .inputs button:hover {
   transform: scale(1.1);
+  transition: 1s;
 }
 
 .login-form a {
@@ -352,4 +355,5 @@ h4 {
 }
 .forgot-form input:hover {
   transform: scale(1.1);
+  transition: 1s;
 }
