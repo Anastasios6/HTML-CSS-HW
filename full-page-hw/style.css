@@ -1,0 +1,233 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  height: 100%;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+}
+header {
+  position: sticky;
+  top: 1px;
+  border-bottom: 1px solid #e5e5e5;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  font-size: 18px;
+  list-style-type: none;
+
+  border-radius: 5px;
+
+  margin-right: 20px;
+}
+header ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+header .buttons-header {
+  margin-right: 20px;
+}
+header .buttons-header button {
+  border: 3px solid rgba(67, 167, 224, 0.993);
+  border-radius: 10px;
+  height: 45px;
+  width: 100px;
+  background-color: white;
+}
+header .buttons-header button a {
+  text-decoration: none;
+  color: rgb(73, 72, 72);
+}
+header .buttons-header button:hover {
+  background-color: rgba(67, 167, 224, 0.993);
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  body {
+    display: flex;
+  }
+
+  header .buttons-header button {
+    border-radius: 10px;
+    height: 25px;
+    width: 100px;
+  }
+
+  .container .card1 {
+    font-size: 10px;
+    width: 10px;
+    margin: 0;
+  }
+  .container .card1 .card-body h1 {
+    font-size: 55px;
+  }
+  .container .card1 .button-card {
+    padding: 3px;
+  }
+  .container .card1 .button-card button {
+    width: 120px;
+  }
+  .container .card1 .button-card-free {
+    padding: 3px;
+  }
+  .container .card1 .button-card-free button {
+    width: 120px;
+  }
+}
+@media screen and (max-width: 926px) {
+  header {
+    margin: 0px;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: space-between; */
+  }
+  header h1 {
+    font-size: 30px;
+  }
+  .container {
+    justify-content: center;
+    margin-left: 10px;
+  }
+  .container .card1 {
+    height: 400px;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 25px;
+  }
+  .card1 .button-card-free button {
+    width: 102px;
+  }
+  .card1 .button-card button {
+    width: 102px;
+  }
+  .container .card1 {
+    width: 250px;
+    margin-right: 10px;
+  }
+}
+
+.container {
+  display: flex;
+
+  height: 800px;
+  text-align: center;
+  gap: 20px;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.card1 {
+  border: 1px solid black;
+  height: 400px;
+  width: 350px;
+  margin-left: 25px;
+  border-radius: 25px;
+}
+.card-header {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e5e5;
+  height: 50px;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+  margin-top: 0;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.card-header h4 {
+  margin: 0;
+}
+
+.card-list {
+  list-style-type: none;
+}
+.button-card {
+  height: 100px;
+}
+.button-card button {
+  margin-top: 20px;
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  border: 1px solid rgba(67, 167, 224, 0.993);
+}
+.button-card-free button {
+  margin-top: 20px;
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  border: 2px solid #007bff;
+  background-color: white;
+}
+.button-card-free button:hover {
+  color: white;
+  background-color: #007bff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.button-card button:hover {
+  background-color: #007bff;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+ul {
+  padding: 0;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  background-color: #212529;
+  color: white;
+  margin: 0;
+}
+
+footer .footer-list1 li {
+  list-style-type: none;
+}
+footer .footer-list1 li a {
+  color: white;
+  text-decoration: none;
+}
+footer .footer-list1 li a:hover {
+  text-decoration: underline;
+}
+footer .social-media {
+  margin-left: 10px;
+}
