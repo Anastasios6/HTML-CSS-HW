@@ -1,0 +1,7 @@
+{
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "accessibility.verbosity.inlineCompletions": false,
+    "github.copilot.enable": {
+        "plaintext": true
+    }
+}
