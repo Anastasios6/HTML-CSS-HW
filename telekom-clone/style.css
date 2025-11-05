@@ -7,6 +7,7 @@ body {
   background-color: #e9e7e7;
 }
 a {
+  width: fit-content;
   text-decoration: none;
   color: black;
 }
@@ -607,12 +608,14 @@ footer .footer3 .footer-social-media {
   }
   /* problem so grid  */
   .container-cards-uredi {
+      border: 1px solid black;
     display: grid;
-   grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    
+   grid-template-columns: repeat(1, 100px);
    grid-template-rows: repeat(3, 1fr);
-   grid-template-rows: repeat(3, 1fr);
-    justify-content: space-between;
-    align-items: center;
+   width: fit-content;
+    
    
   }
   .container-cards-uredi .cards-1 {
@@ -677,14 +680,14 @@ footer .footer3 .footer-social-media {
     grid-gap: 10px;
     padding: 0;
   }
-   .container-cards-uredi {
+   /* .container-cards-uredi {
     display: grid;
    grid-template-columns: repeat(2, 1fr);
    grid-template-rows: repeat(3, 1fr);
     justify-content: space-between;
     align-items: center;
    
-  }
+  } */
 }
 
 .cards-between2 {
@@ -700,8 +703,13 @@ footer .footer3 .footer-social-media {
   height: 150px;
 }
 .container-cards-uredi {
-  display: flex;
+  /* display: flex;
   gap: 15px;
+  margin-left: 20px;
+  margin-bottom: 18px; */
+  display:grid;
+  border: 1px solid black;
+  grid-template-columns: repeat(3, 1fr);
   margin-left: 20px;
   margin-bottom: 18px;
 }
@@ -709,8 +717,8 @@ footer .footer3 .footer-social-media {
   width: 120px;
 }
 .uredi-h1 {
-  margin-top: 100px;
-  margin-left: 20px;
+  text-align: center;
+
 }
 .container-cards-uredi .cards-1 {
   background-color: #f2f2f2;
