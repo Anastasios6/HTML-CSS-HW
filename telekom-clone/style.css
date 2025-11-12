@@ -5,6 +5,7 @@
 }
 body {
   background-color: #e9e7e7;
+  width: 1897px;
 }
 a {
   width: fit-content;
@@ -21,6 +22,7 @@ header {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  width:1500px;
 }
 
 header .navigations {
@@ -540,13 +542,15 @@ footer .footer3 .footer-social-media {
 @media only screen and (max-width: 768px) {
   body {
     margin: 0;
+    width: 768px;
   }
   header {
-    margin-bottom: 100px;
+    width: 768px;
   }
-
   header .navigations {
-    display: none;
+    margin-left: 0px;
+    text-align: left;
+    
   }
 
   header a img {
@@ -591,6 +595,10 @@ footer .footer3 .footer-social-media {
     flex-direction: column;
     height: 800px;
   }
+  .cards-between2 .cards-between2-main {
+    justify-content: center;
+    gap: 50px;
+  }
   .info .info-card {
     height: 150px;
     font-size: 16px;
@@ -609,11 +617,11 @@ footer .footer3 .footer-social-media {
   /* problem so grid  */
   .container-cards-uredi {
       border: 1px solid black;
-    display: grid;
+    
     justify-content: center;
     
-   grid-template-columns: repeat(1, 100px);
-   grid-template-rows: repeat(3, 1fr);
+   grid-template-columns: repeat(2, 100px);
+   
    width: fit-content;
     
    
@@ -643,7 +651,7 @@ footer .footer3 .footer-social-media {
     left: 0;
   }
   header .navigations {
-    margin-left: 0px;
+    
     gap: 0px;
   }
   header .navigations .big-links-header ul {
@@ -675,8 +683,8 @@ footer .footer3 .footer-social-media {
 
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(2, 150px);
-    grid-template-rows: repeat(3, 150px);
+    grid-template-columns: repeat(3, 150px);
+    
     grid-gap: 10px;
     padding: 0;
   }
@@ -708,9 +716,9 @@ footer .footer3 .footer-social-media {
   margin-left: 20px;
   margin-bottom: 18px; */
   display:grid;
-  border: 1px solid black;
+
   grid-template-columns: repeat(3, 1fr);
-  margin-left: 20px;
+  margin-left: 100px;
   margin-bottom: 18px;
 }
 .container-cards-uredi img {
